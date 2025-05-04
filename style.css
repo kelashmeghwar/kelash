@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 5px;
+}
+.containerone {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+/* nav bar starts here */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: auto;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ }
+li > a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.button-design{
+padding: 10px ;
+font-size: 18px;
+}
+.loginbutton
+{
+  background-color: white;
+  color: green;
+  border: 2px solid gray;
+  border: none;
+}
+.registerbtn{
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0px 20px;
+  font-weight: 100;
+  font-size: 18px;
+}
+  .onecono {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+.onecon {
+  width: 20%;
+}
+.ulli {
+  width: 60%;
+}
+/* nav bar ends here  */
+/* second item start */
+.second-container {
+  display: flex;
+  justify-content: end;
+  height: 605px;
+  position: relative;
+  flex-wrap: wrap;
+  /* background-color: rgb(235, 252, 252); */
+  background-color: #fafefc;
+  flex: auto;
+}
+.Education {
+  color: green;
+}
+.hone {
+  font-size: 60px;
+  color: black;
+  text-transform: capitalize;
+  position: absolute;
+  top: 120px;
+  left: 80px;
+  flex-wrap: wrap;
+}
+.a {
+  /* z-index: 2; */
+  right: 30px;
+  position: absolute;
+  height: 508px;
+  top: 50px;
+  flex-wrap: wrap;
+}
+.b {
+  /* z-index: 1; */
+  height: 100%;
+  border-radius: 0px 70px 0px 0px;
+}
+.imagecom {
+  position: relative;
+  /* background-color: red; */
+  z-index: 0;
+}
+.btnme {
+  position: absolute;
+  top: 420px;
+  left: 80px;
+  size: 15px;
+}
+.profiles {
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  z-index: 115;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.aa {
+  position: relative;
+}
+.one {
+  z-index: 6;
+  left: 55px;
+}
+.two {
+
+  z-index: 7;
+  left: 25px;
+}
+.three {
+  z-index: 8;
+}
+.four {
+  z-index: 9;
+  right: 27px;
+}
+.five {
+  z-index: 10;
+  right: 55px;
+}
+.counting{
+    position:absolute;
+    z-index: 20;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    justify-content: center;
+    top: 350px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    
+}
+.fif{
+    color: green;
+}
+/* second item end */
+/* third item start here */
+.thirdcont{
+    display: flex;
+    justify-content: space-between ;
+    /* align-items: center; */
+    margin-top: 80px;
+    flex: auto;
+    align-items: center;
+}
+.cc{
+    display: flex;
+    align-items: center;
+
+  }
+/* third item ends here */
+/* forth item start here */
+.thirdline{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  align-items: center;
+  /* border: 2px solid rebeccapurple; */
+}
+.fristslider{
+  display: flex;
+  flex-direction: row;
+  flex: 4;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* margin bottom: 50px; */
+  margin-top: 20px;
+
+}
+.pani{
+  padding-left: 5px;
+  font-size: 20px;
+}
+/* forth item end here */
+.cup{
+  display: flex ;
+  justify-content:space-around;
+  flex: auto;
+  align-items: center;
+  position: relative;  
+  width: 24%;
+}
+.honeone{
+  position: relative;
+  bottom: 80px;
+  color: white;
+}

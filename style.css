@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+/* nav bar design begin here */
+.nav_bar_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: auto;
+}
+.nav_bar_option>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;    
+}
+li{
+    /* margin-left: 50px; */
+    font-size: large;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.nav_bar_button_search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav_bar_search_logo{
+    margin-right: 45px;
+    
+}
+.login_button{
+    margin-right: 30px;
+    padding: 10px;
+    border: none;
+
+}
+.Register_button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+
+}

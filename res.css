@@ -19,7 +19,7 @@
   }
   @media only screen and (max-width: 806px) {
     .nav_bar_search_logo{
-     
+        margin-right: 10px;
    }
    .login_button{
        margin-right: 50px;
@@ -53,3 +53,35 @@
 
 } 
 }
+@media only screen and (max-width: 600px) {
+
+.dis{
+    display: none;
+
+}
+.not_dis{
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+}
+@media only screen and (max-width: 300px) {
+
+    .dis{
+        display: none;
+    
+    }
+    .not_dis{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* padding-left: 50px; */
+        /* padding-right: 50px; */
+
+    }
+    }
+    

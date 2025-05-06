@@ -3,8 +3,8 @@
     margin: 0px;
 }
 .container{
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 10px;
 }
 /* nav bar design begin here */
@@ -39,7 +39,7 @@ li{
     
 }
 .login_button{
-    margin-right: 30px;
+    margin-right: 15px;
     padding: 10px;
     border: none;
 
@@ -51,4 +51,7 @@ li{
     background-color: green;
     color: white;
 
+}
+.not_dis{
+    display: none;
 }

@@ -1,87 +1,19 @@
-@media only screen and (max-width: 1055px) {
-     .nav_bar_search_logo{
-        margin-left: 0px;
-      
-    }
-    .login_button{
-        margin-right: 2px;
-        padding: 10px;
-        border: none;}
-        li{
-            padding-left: 2px;
-            padding-right: 2px;
-            
-        }
-        .nav_bar_search_logo{
-            margin-right: 2px;
-            
-        }
-  }
-  @media only screen and (max-width: 806px) {
-    .nav_bar_search_logo{
-        margin-right: 10px;
-   }
-   .login_button{
-       margin-right: 50px;
-       margin-left: 50px;
-       padding: 10px;
-       border: none;}
-       li{
-           padding-left: 12px;
-           padding-right: 12px;
-           margin-top: 10px;
-           margin-bottom: 15px;
-       }
-       .nav_bar_search_logo{
-           margin-right: 2px;
-           
-       }
-       .nav_bar_main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex: 1;
- }
- .Register_button{
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: green;
-    color: white;
-    margin-left: 25px;
-
-} 
-}
-@media only screen and (max-width: 600px) {
-
-.dis{
-    display: none;
-
-}
-.not_dis{
-    display: block;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
-}
-}
-@media only screen and (max-width: 300px) {
-
+@media only screen and (max-width: 1000px) {
     .dis{
         display: none;
-    
     }
-    .not_dis{
-        display: block;
+    .nav_bar_main{
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        /* padding-left: 50px; */
-        /* padding-right: 50px; */
+        /* flex: auto; */
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* align-items: center; */
+    }
+     .not_dis{
+        display: block;
+     }
+     .car{
+        margin-left: 40%;
+     }
+  }
 
-    }
-    }
-    

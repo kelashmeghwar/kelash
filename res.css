@@ -5,15 +5,234 @@
     .nav_bar_main{
         display: flex;
         flex-wrap: wrap;
+        flex: auto;
        
     }
      .not_dis{
         display: block;
      }
      .third_block{
-        flex: 2;
-        justify-content: space-around;
+        display: flex;
+        justify-content: space-between;
         align-items: center;
      }
+     .text_main{
+        font-size: 20px;
+     }
+     .left_side{
+        display: flex;
+        flex: auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;    
+    }
+    .imgo{
+ margin-top: 10px;   
+
+}
+.images_slider_one{
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
   }
+@media only screen and (max-width: 800px) {
+    .container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    .dis{
+        display: none;
+    }
+    .nav_bar_main{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+     .not_dis{
+        display: block;
+     }
+     .third_block{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+     }
+     .text_main{
+        font-size: 20px;
+     }
+      .main_block{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .right_side_main_img{
+        position: relative;
+        left: 50px;
+        top: 70px;
+       
+  }
+   .fourth_text_section h1{
+    padding-right: 0px;
+}
+.fourth_text_section{
+    display: flex;
+    margin-top: 50px;
+    flex: auto;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.imgo{
+ margin-top: 10px;   
+
+}
+.images_slider_one{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.third_block{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;   
+ 
+}
+.third_block_elements{
+    display: flex;
+    align-items: center;
+    background-color: rgb(199, 252, 249);
+    padding: 8px 8px;
+    /* margin-left: 50px; */
+    /* margin-top: 20px; */
+    flex: auto;
+   
+}
+.fourth_text_section h2{
+   margin-top: 20px;
+   text-align: center;
+}
+.fourth_text_section h1{
+   margin-top: 20px;
+   text-align: center;
+   
+}
+.fourth_text_section{
+   margin-left: 50px;
+}
+
+}
+@media only screen and (max-width: 450px) {
+    /* .container{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+} */
+    .dis{
+        display: none;
+    }
+    .nav_bar_main{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+     .not_dis{
+        display: block;
+     }
+     .third_block{
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+     }
+     .text_main{
+        font-size: 20px;
+     }
+      .main_block{
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .right_side_main_img{
+        position: relative;
+        left: 50px;
+        top: 70px;
+       
+  }
+  .fourth_text_section h1{
+    padding-right: 0px;
+}
+.fourth_text_section{
+    display: flex;
+    margin-top: 50px;
+    flex: auto;
+    flex-wrap: wrap;
+    /* flex-direction: row;
+    align-items: center; */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.imgo{
+ margin-top: 10px;   
+
+}
+.images_slider_one{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    flex-direction: column;
+}
+.third_block{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;   
+ 
+}
+.third_block_elements{
+    display: flex;
+    align-items: center;
+    background-color: rgb(199, 252, 249);
+    padding: 8px 18px;
+    margin-left: 50px;
+    margin-top: 20px;
+   
+}
+
+}
+@media only screen and (max-width: 1200px){
+    .imgo{
+ margin-top: 10px;
+ /* width: 24.5%;    */
+
+}
+.images_slider_one{
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  
+    flex-direction: column;
+}
+
+}
+
 

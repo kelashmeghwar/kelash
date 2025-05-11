@@ -1,15 +1,17 @@
 *{
     padding: 0px;
     margin: 0px;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif "important";
+    
 }
-.container{
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 10px;
+
+.container_kelash{
+    font-family: "Open Sans";
+    margin: 0px 50px;
+    
 }
 /* nav bar design begin here */
-.nav_bar_main{
+.nav_bar_main_nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +21,8 @@
 .nav_bar_option>ul{
     display: flex;
     justify-content: space-between;
-    list-style: none;    
+    list-style: none;  
+    justify-content: center;  
 }
 li{
     /* margin-left: 50px; */
@@ -44,6 +47,8 @@ li{
     margin-right: 15px;
     padding: 10px;
     border: none;
+    background-color: white;
+    color: green;
 
 }
 .Register_button{
@@ -59,6 +64,7 @@ li{
 }
 /* nav bar ends here */
 /* second block css */
+
 .green_color{
     color: green;
 }
@@ -83,11 +89,15 @@ li{
         align-items: center;
         flex: auto;
         flex-wrap: wrap;
+        background-image: url(/frist_container/background_image.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        border-radius: 10px 100px 0px 0px;
     }
     .right_side_main_img{
-        position: relative;
-        left: 50px;
-        top: 70px;
+      position: relative;
+    right: 35px;
+        top: 70px; 
     }
     .mix_img{
         position: relative;
@@ -151,22 +161,64 @@ left: 60px;
     display: flex;
     flex-wrap: wrap;
     flex: auto;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-around;   
+ margin-top: 20px;
 }
 .third_block_elements{
     display: flex;
     /* justify-content: space-around; */
     align-items: center;
+    /* text-align: center; */
     background-color: rgb(199, 252, 249);
-    padding: 10px 5px;
+    padding: 8px 18px;
    
 }
-.third_block_elements p{
-    margin-left: 12px;
-    margin-right: 8px;
+
+/* fourth section starts here */
+
+/* .fourth_text_section h1{
+    padding-right: 500px;
+} */
+.images_slider_one{
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0px 30px;
 }
-.third_block_elements img{
-    margin-left: 10px;
-    width: 30px;
+
+.green_button{
+    background-color: green;
+    border-radius: 50px;
+    padding: 3px 20px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.fourth_text_section{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    /* margin-bottom: 50px; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.fourth_text_section h1{
+    padding-right: 450px;
+}
+.fifth_text_section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    flex: auto;
+    flex-wrap: wrap;
 }

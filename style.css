@@ -67,6 +67,11 @@ li{
 
 .green_color{
     color: green;
+    font-size: 22px;
+    font-weight: bold ;
+}
+.green_color_text{
+    color: green;
 }
 .frist_button{
     background-color: rgb(95, 211, 95);
@@ -110,6 +115,7 @@ li{
           width: 270px;
           border-radius: 10px;
     }
+
     .mix_left{
         position: absolute;
         right: -30px;
@@ -221,4 +227,78 @@ left: 60px;
     margin-top: 20px;
     flex: auto;
     flex-wrap: wrap;
+}
+.six_sliders{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    background-color: white;
+    align-items: center;
+}
+.six_slider_second_div{
+    display: flex;
+
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.six_slider_second_div h1{
+    font-size: 20px;
+    font-weight:lighter;
+    padding: 10px 100px 0px 45px;
+    word-spacing: 1px;
+    font-weight: 0px;
+    
+}
+.six_slider_third_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px 10px 20px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.six_slider_third_div img{
+    margin: 0px 5px;
+} 
+.last_before_slider{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.optional{
+    display: flex;
+    /* margin-right: 50px; */
+    flex: auto;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+
+
+.forth_part_left_div{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.forth_part_left_div p{
+    margin-left: 15px;
+    font-weight: bolder;
+}
+.optional_img{
+    position: relative;
+}
+.optional_img_small{
+    background-color: white;
+    position: absolute;
+text-align: center;
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ padding: 10px;
+ bottom: 100px;
+ right: -35px;
 }

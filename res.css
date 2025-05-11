@@ -4,16 +4,12 @@
     }
     .nav_bar_main{
         display: flex;
-        /* flex: auto; */
         flex-wrap: wrap;
-        /* justify-content: space-between; */
-        /* align-items: center; */
+       
     }
      .not_dis{
         display: block;
      }
-     .car{
-        margin-left: 40%;
-     }
+     
   }
 

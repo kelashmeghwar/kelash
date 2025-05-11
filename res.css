@@ -10,6 +10,10 @@
      .not_dis{
         display: block;
      }
-     
+     .third_block{
+        flex: 2;
+        justify-content: space-around;
+        align-items: center;
+     }
   }
 

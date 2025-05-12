@@ -237,9 +237,13 @@ left: 60px;
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
     background-color: white;
     align-items: center;
+}
+.shadow{   
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin-bottom: 15px;
 }
 .six_slider_second_div{
     display: flex;
@@ -304,4 +308,11 @@ text-align: center;
  padding: 10px;
  bottom: 100px;
  right: -35px;
+}
+.Reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
 }

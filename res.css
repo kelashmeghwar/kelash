@@ -264,6 +264,10 @@
     margin-top: 20px;
    
 }
+.text_rev{
+    margin-top: 20px;
+    display: flex;
+}
 .fifth_text_section{
     display: flex;
     flex-direction: column;

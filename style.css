@@ -315,4 +315,61 @@ text-align: center;
     justify-content: center;
         margin-top: 80px;
         margin-bottom: 80px;
+        
+}
+.rev_opt{
+    display: flex;
+    margin-left: 50px;
+    margin-left: 50px;
+    justify-content: space-around;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.profile_picture_name{
+    display: flex;
+    align-items: center;
+    flex: auto;
+    /* justify-content: center; */
+}
+
+.p_target{
+    line-height: 25px;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.img_icon{
+    margin-top: 50px;
+}
+.img_icon img{
+    width: 50px;
+    margin-left: 15px;
+}
+.meet{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.inst_one{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px ;
+    justify-content: space-around;
+    flex: auto;
+    flex-wrap: wrap;
+}
+.card_S{
+    text-align: center;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+     padding: 20px 30px;
+     margin-top: 20px;
+}
+.for_margin{
+    margin-top: 15px;
+    line-height: 20px;
+}
+.rev_one{
+    margin-top: 20px;
+}
+.text_rev{
+    margin-top: 20px;
 }
